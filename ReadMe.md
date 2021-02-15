@@ -1,7 +1,7 @@
 # Learning Python With Projects (Number guessing) 
 > Syntax - Comments, Prints, Variables, Strings, Integers, String Concatenations, Inputs, Comparison operators, and if/else statements.
 
-> https://youtu.be/Wtz_jYVf2p0
+> https://youtu.be/odrbNYA0r7A
 
 
 ## Tutorial
@@ -133,6 +133,32 @@ print(random.randint(1,100))
 
 ___
 
+
+____________________________________________________________________________________________________________________
+> Functions (def) - A block of code that only runs when its called. A function can return data as a result , you can pass data into the function and this is known as a 'parameter': (See more here) https://www.learnpython.org/en/Functions
+---------------------------------------------------------------------------------------------------------------------
+
+
+* - A function is declared with the word 'def', followed by the name you choose to use for the function, and then parentheses.- *
+
+```python
+def name_of_function():
+	pass
+```
+
+* - If you declare a function and do not have code written inside of it yet, then simply add pass statement so the it does not cause errors. Pass is just a null statement, see more here > https://www.educative.io/edpresso/what-is-pass-statement-in-python- *
+
+
+* 1....Make a function return True ( this funciton now also equals True) especially if this is the only thing it does.
+
+```python
+def func():
+	return True
+```
+* Info - An entire script 'file.py' carries a global scope and a function carries its own within it. More on scopes here > https://www.w3schools.com/python/python_scope.asp
+
+___
+
 #####Try writing the syntax in try.py
 
 ```python
@@ -150,8 +176,17 @@ ___
 # 3.) print the Boolean of 2 random numbers between 1-8 being compared using Comparing operators...:)
 
 
-''' 4.) save 2 random numbers between 15-30 into variables. Run an if statement with those 2 variables being compared using Comparing operators as the condition. If True, run "print('This time its true')". If False, run "print('this time its false')"...:)
+# 4.) create a function and add 1-3 inside of it. Call the function.
+
+
+
+
+''' 5.) save 2 random numbers between 15-30 into variables. Run an if statement with those 2 variables being compared using Comparing operators as the condition. If True, run "print('This time its true')". If False, run "print('this time its false')"...:)
 '''
+
+
+# 6 .) create a function and add 5 inside of it. Call the function.
+
 ```
 
 ___
@@ -164,11 +199,9 @@ ___
 # 1.) Import everything you need, remember we will be using randint attribute from the random module....
 from random import randint as rando
 
-# 2.) Save the random number into a variable - range should be from 1-100 or over
-hidden_num = rando(1, 100)
 
 
-# 3.) Create and intro using prints (Optional)
+# 2.) Create and intro using prints (Optional)
 print(colors.cyan,'________________________ThisGuyCodez_________')
 print(colors.red,'____0__________3____________9___3_______2____')
 print(colors.red,'_1________5_________6______2________11______7')
@@ -178,26 +211,41 @@ print(colors.red,'____0__________3____________9___________2____')
 print(colors.cyan,'_________Python_Number_guessing_Game_________\n\n')
 
 
-# 4.) Create your function to use a scope for your game and easy for a 'reset button'(recall function for the game to run again)
+# 3.) Save the random number into a variable - range should be from 1-100 or over
+
+
+# 4.) Create your function to use a scope for your game and this also makes it easy for a 'reset button'(recall function for the game to run again).
 
 
 ''' 
-5a.) Compare number to hidden_num,high,low,and the difference from the hidden_num.
+You might want to create a function for this part as well. Especially if you are planning on promting to restart the game after a win.
 
-5b.) If the guessed_num is correct then ask user if they'd like to play again, if not - end it.
+5.)
+	a.) See if the number guessed by the user is correct 1st. If correct, then print a congratulating message and end game 
+	. (Or prompt for a restart)
 
-5c.) If it is not the right guessing number, print the relevant message and return your function to run again.
+	b.) If the guessed number is wrong then print out 
+		a message explaining how wrong the guess is.(Restart Game)
+
+
+	c.) Use if elif and else statements accurately to catch all possibilities.
+
+		
 '''
 
 
-
 ```
+* run the file to see how your game came out...
+```bash
+python3 num_guess.py
+```
+
 ___
 
 
-> *CONGRATS YOU JUST PROGRAMMED YOUR A Number Guessing GAME IN PYTHON*
+> *CONGRATS YOU JUST PROGRAMMED A Number Guessing GAME IN PYTHON*
 ---
-> *SEE HOW FAR YOU CAN GO AN SHARE IN THE COMMENTS*
+> *SEE HOW FAR YOU CAN GO AND SHARE IN THE COMMENTS*
 
 
 ### Thanks For Reading 

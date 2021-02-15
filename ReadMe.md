@@ -1,5 +1,5 @@
 # Learning Python With Projects (Number guessing) 
-> Syntax - Comments, Prints, Variables, Strings, Integers, String Concatenations, Inputs, Comparison operators, and if/else statements.
+> Syntax - Comments, Prints, Variables, Strings, Integers, String Concatenations, Inputs, Comparison operators, Functions, and if/else statements.
 
 > https://youtu.be/odrbNYA0r7A
 
